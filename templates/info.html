@@ -1,0 +1,68 @@
+<link rel="stylesheet" type="text/css" href="static/css/quartz.css">
+  <meta charset="utf-8">
+{% extends 'base.html' %}
+
+
+{% block content %}
+<center><h1>{% block title %} {% endblock %}</h1></center>
+<br>
+
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+<ol class="carousel-indicators">
+<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+<li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+</ol>
+<div class="carousel-inner">
+<div class="carousel-item active">
+<center><img height="500px" h class="d-block w-40" src="static/img/yo.jpeg" alt="First slide"></center>
+</div>
+<div class="carousel-item">
+<center><img  height="500px" class="d-block w-40" src="static/img/paco.jpeg" alt="Second slide"></center>
+</div>
+</div>
+<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+<span class="sr-only">Anterior</span>
+</a>
+<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+<span class="carousel-control-next-icon" aria-hidden="true"></span>
+<span class="sr-only">Siguiente</span>
+</a>
+</div>
+<h1><center>¿Quién soy?</center></h1>
+<p><center><h6>Soy Francisco Ríos Aviña, un productor audiovisual en el principio de su carrera, comencé a trabajar en medios de comunicación en septiembre del 2018, como practicante en Expresa Tv, un canal de televisión de Celaya, laboré ahí hasta diciembre del 2020, en este lugar desarrollé habilidades en programas de adobe como premiere y after effects.</h6></center></p>
+<p><center><h6>Actualmente laboro en el área de comunicación social y eventos del municipio de Celaya, formo parte del equipo de producción audiovisual, mis funicones principales son la recopilación y edición de material audiovisual durante las giras de trabajo que se realizan, aunque también me dedico a realizar cápsulas informativas, que se acoplen a las necesidades de las diferentes áreas del municipio, como servicios municipales, desarrollo económico, desarrollo social entre otras.
+</h6></center></p>
+<hr>
+<center><h3>Habilidades</h3> 
+<li>
+Rápido Aaprendizaje
+</li>
+<li>
+Trabajo en equipo
+</li>
+<li>
+Trabajo bajo presión
+</li></center>
+<hr>
+<h3><center>Software</center></h3>
+
+<center><img src="static/img/premiere.png" height="40px"></center><center><img src="static/img/afteer.png" height="40px"></center><center><img src="static/img/photoshop.png" height="40px"></center>
+<hr>
+<center><h2>Hobbies</h2></center>
+<center>
+<li>
+Cardio
+</li>
+<li>
+Ver series, películas, lucha libre
+</li>
+<li>
+Escuchar música
+</li></center>
+
+
+
+{% endblock %}

@@ -1,0 +1,36 @@
+<link rel="stylesheet" type="text/css" href="static/css/quartz.css">
+<meta charset="utf-8">
+{% extends 'base.html' %}
+
+{% block content %}
+<center><h1>{% block title %} Un pequeño vistazo a mi trabajo {% endblock %}</h1></center>
+
+<div class="row">
+  <div class="card column" style="width: 15rem;">
+    <img src="../static/img/servicios.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Cápsula Informativa</h5>
+      <p class="card-text">Cápsula realizada para el área de servicios municipales del municipio de Celaya con la finalidad de dar a conocer el área a la gente.</p>
+      <a href="https://youtu.be/6crRmfWNc2c" class="btn btn-primary">Ver</a>
+    </div>  
+  </div>
+  <div class="card column" style="width: 15rem; margin-left: 18%;">
+    <img src="../static/img/chocolate.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Testimonial</h5>
+      <p class="card-text">Cápsula realizada para dar a conocer los resultados de una de las personas beneficiadas por un programa de Desarrollo Económico.</p>
+      <a href="https://youtu.be/xlCwY392xW8" class="btn btn-primary">Ver</a>
+    </div>
+  </div>
+  <div class="card column" style="width: 15rem; margin-left: 18%;">
+    <img src="../static/img/stream.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Servicio de Stream</h5>
+      <p class="card-text">Ejemplo de una transmisión en vivo que se realiza para la revista "Tu punto de encuentro" en su programa "Café con Nosotras".</p>
+      <a href="https://www.facebook.com/109271490431052/videos/972302736877985" class="btn btn-primary">Ver</a>
+    </div>
+  </div>
+</div>
+
+{% endblock %}
+

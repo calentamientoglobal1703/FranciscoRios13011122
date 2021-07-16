@@ -1,0 +1,19 @@
+<link rel="stylesheet" type="text/css" href="static/css/quartz.css">
+  <meta charset="utf-8"> 
+{% extends 'base.html' %}
+
+
+{% block content %}
+    <center><h1 style="color:white;" >{% block title %} Francisco Ríos- Productor Audiovisual {% endblock %}</h1></center>
+    {% for post in posts %}
+        <a href="{{ url_for('post', post_id=post[0]) }}">
+            <h2>{{ post[2] }}</h2>
+        </a>
+        <span class="badge badge-primary">{{ post }}</span>
+        <a href="{{ url_for('edit', id=post[0]) }}"> 
+            <span class="badge badge-warning">Edit</span>
+        </a>
+        <hr>
+    {% endfor %}
+{% endblock %}
+
